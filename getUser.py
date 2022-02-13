@@ -1,3 +1,3 @@
-import os
+import getpass
+print(getpass.getUser())
 
-print(os.path.expanduser('~'))
